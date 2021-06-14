@@ -26,7 +26,7 @@ export const UserInfo = styled.div`
 `;
 
 export const CardBackground = styled.div`
-    background: url('images/card-bg.svg');
+    background: url('/images/card-bg.svg');
     background-position: center;
     background-size: 462px;
     height: 54px;
@@ -51,7 +51,7 @@ export const Photo = styled.div`
 `;
 
 export const Link = styled.div`
-    font-size: 50px;
+    font-size: 16px;
     line-height: 1.5;
     color: rgba(0, 0, 0, 0.9);
     font-weight: 600;

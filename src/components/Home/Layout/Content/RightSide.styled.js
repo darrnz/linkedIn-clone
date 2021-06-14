@@ -19,7 +19,7 @@ export const FollowCard = styled.div`
 `;
 
 export const Title = styled.div`
-    display: inline-felx;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
     font-size: 16px;
@@ -55,6 +55,7 @@ export const FeedList = styled.ul`
             justify-content: center;
             max-height: 32px;
             max-width: 480px;
+            text-align: center;
             outline: none;            
         }
 
@@ -66,8 +67,8 @@ export const Avatar = styled.ul`
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    width: 48px;
-    height: 48px;
+    width: 38px;
+    height: 38px;
     margin-right: 8px;
 `;
 
@@ -84,4 +85,5 @@ export const BannerCard = styled(FollowCard)`
         height: 100%;
     }
 `;
+
 

@@ -1,7 +1,9 @@
 import React from 'react'
 import { Container, Nav, Join, SignIn, Section, Hero, Google, Form } from './Login.styled'
+import { connect } from 'react-redux'
 
-export default function Login() {
+
+function Login() {
     return (
         <Container>
             <Nav>
@@ -33,3 +35,13 @@ export default function Login() {
         </Container>
     )
 }
+
+const mapStateToProps = (state) => {
+    return {}
+}
+
+const mapDispatchToProps = (disptatch) => {
+
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Login);
